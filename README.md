@@ -15,7 +15,7 @@ More specifically, we use 20% of images from the pizza, steak and sushi classes 
 * FoodVision Big was trained to classify 101 classes of food. 
 FoodVision Big was trained on the images of Food101 dataset to classify all of 101 classes. 
 
-# Model
+## Model
 
 For an application of such type as FoodVision, not only accuracy, but also prediction speed is important (it is unlikely that a user will want to wait forever to get prediction results based on a photo of their food). 
 That's why we set the following requirement to the model before experimenting:
@@ -32,7 +32,7 @@ It turns out that both models reached the requirement in terms of performance wi
 Given we are prioritize speed, we decided to stick with EffNetB2 for FoodVision Mini and FoodVision Big since it's faster and has a much smaller footprint.
 
 
-# Deployment 
+## Deployment 
 
 You can find deployed models (and try it out) on my Huggingface Spaces, by clicking the following links:
 * [FoodVision Mini Gradio App](https://huggingface.co/spaces/vic-art/foodvision_mini)
